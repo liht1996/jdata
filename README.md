@@ -14,11 +14,14 @@ Stage A: 33/739
       
 Stage B: 17/137
 
-### Language：Python
+### Language：
+Python
 
-### Libraries: Numpy, Pandas, Scikit-learn, LightGBM, XGBoost
+### Libraries: 
+Numpy, Pandas, Scikit-learn, LightGBM, XGBoost
 
-### Algorithm: GBDT
+### Algorithm: 
+GBDT
 
 ### Main Contributor: 
 
