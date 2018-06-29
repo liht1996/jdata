@@ -1,4 +1,6 @@
-# jdata - China Big Data Algorithm Competition - Prediction of users' purchase dates 中国大数据算法大赛 - 如期而至：用户购买时间预测
+# jdata - China Big Data Algorithm Competition - Prediction of users' purchase dates 
+
+# 中国大数据算法大赛 - 如期而至：用户购买时间预测
 
 ## Basic Info:
 
