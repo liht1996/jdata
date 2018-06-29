@@ -6,7 +6,8 @@ Created on 2018年6月11日
 import pandas as pd
 import numpy as np
 import lightgbm as lgb
-import time 
+import time
+from datetime import datetime, timedelta
 
 
 def predict_lgb_S1(X_train,X_test,Y_train,pre_col):
