@@ -4,6 +4,8 @@
 
 ## Basic Info:
 
+### Competition Details: https://jdata.jd.com/html/detail.html?id=2
+
 ### Team: STAR_BIGDATA
 
 ### Rank: 
