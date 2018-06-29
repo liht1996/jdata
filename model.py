@@ -145,6 +145,7 @@ def submit(X,Y,X_predict,pre_col):
     submit['proba']=pd.Series(Y_pred_S1)
     submit['pred_date']=np.round(pd.Series(Y_pred_S2))
     submit.ix[submit['pred_date']<1,'pred_date']=1
+    submit['pred_date'] = submit['pred_date'].map(lambda day: datetime(2017,9,1)+timedelta(days=np.round(day-1)))
     submit.sort_values(by = 'proba',ascending=False,inplace=True)
-    submit=submit.iloc[0:50000,:]
+    submit=submit.iloc[0:50000,:].drop(['proba'], axis=1)
     return submit,fea_imp_s1,fea_imp_s2
