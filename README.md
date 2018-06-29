@@ -6,9 +6,9 @@
 
 ### Rank: 
 
-Stage A: 17/137
+Stage A: 33/739
       
-Stage B: 33/739
+Stage B: 17/137
 
 ### Language：Python
 
