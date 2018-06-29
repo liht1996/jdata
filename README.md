@@ -15,19 +15,22 @@ Stage A: 33/739
 Stage B: 17/137
 
 ### Language：
-Python
+Python(3.6.3)
 
-### Libraries: 
-Numpy, Pandas, Scikit-learn, LightGBM, XGBoost
+### Libraries:
+
+Numpy(1.13.3), Pandas(0.22.0), Scikit-learn(0.19.1), LightGBM(2.1.1), XGBoost(0.71)
+
+Please notice that different versions of libraries may lead to different results
 
 ### Algorithm: 
 GBDT
 
 ### Main Contributor: 
 
-@Francis1986（JData ID: 长离未离） https://github.com/Francis1986
+@Francis1986(JData ID: 长离未离) https://github.com/Francis1986
                   
-@liht1996（JData ID: Euphoric0x0） https://github.com/liht1996
+@liht1996(JData ID: Euphoric0x0) https://github.com/liht1996
 
 ## How to run: 
 
