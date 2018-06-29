@@ -4,6 +4,8 @@
 
 ## Basic Info:
 
+### Team: STAR_BIGDATA
+
 ### Rank: 
 
 Stage A: 33/739
@@ -18,9 +20,9 @@ Stage B: 17/137
 
 ### Main Contributor: 
 
-@Francis1986 https://github.com/Francis1986
+@Francis1986（JData ID: 长离未离） https://github.com/Francis1986
                   
-@liht1996 https://github.com/liht1996
+@liht1996（JData ID: Euphoric0x0） https://github.com/liht1996
 
 ## How to run: 
 
