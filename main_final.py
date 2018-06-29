@@ -8,7 +8,7 @@ from main_fea import main_fea
 from model import train,submit
 import time
 
-tran = 1
+tran = 0
 sub = 1
 fea_exist = 1
 
@@ -39,7 +39,7 @@ if tran:
 ###提交
 if sub:
     wash_on=1
-    X,Y,X_predict,pre_col = feat_arange(wash_on,file_name='B_test_3615_5monwinDel6monPinghua_Updateratio')
+    X,Y,X_predict,pre_col = feat_arange(wash_on,file_name='B_test_3615')
     submit,fea_imp_s1,fea_imp_s2 = submit(X,Y,X_predict,pre_col)
     fea_imp_s1.to_csv('./fea_imp_sub/fea_imp_s1_B_test_3615_5monwinDel6monPinghua_Updateratio.csv')
     fea_imp_s2.to_csv('./fea_imp_sub/fea_imp_s2_B_test_3615_5monwinDel6monPinghua_Updateratio.csv')

@@ -51,7 +51,7 @@ def feat_extract(end_date,time_gap,order,action,user_info):
         label['label_wash'] = order.ix[order['cate'].isin([101,30]),:].pivot_table(index='user_id',columns='wash_label',values='o_id',aggfunc={'o_id':'count'})[1]
         label.fillna(0,inplace=True)
         label=label.drop(['user_id'],axis=1)
-        label.ix[label['label_o_num']>2,"label_o_num"]=2 #大于3的订单数极少，如果按实际的话会引入干扰，和大神保持一致
+        label.ix[label['label_o_num']>1.386,"label_o_num"]=1.386 #大于3的订单数极少，如果按实际的话会引入干扰，和大神保持一致
         label.ix[label['label_sku_num']>6,"label_sku_num"]=6
     user_fea_concat = []
     #生成2个字典用来存储，满足时间标签值的数据
