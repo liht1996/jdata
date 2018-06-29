@@ -14,7 +14,7 @@ Stage B: 33/739
 
 ### Libraries: Numpy, Pandas, Scikit-learn, LightGBM, XGBoost
 
-Algorithm: LightGBM
+### Algorithm: LightGBM
 
 ### Main Contributor: 
 
